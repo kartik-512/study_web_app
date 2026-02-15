@@ -35,7 +35,7 @@ xdg-open index.html
 Or clone the repo and open `index.html`:
 
 ```bash
-git clone https://github.com/kartik_512/study_web_app.git
+git clone https://github.com/kartik-512/study_web_app.git
 cd study_web_app
 start index.html  # or use the appropriate command for your OS
 ```
