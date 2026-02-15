@@ -1,130 +1,96 @@
-# StudyFlow - Study Planner & Progress Tracker
+# StudyFlow
 
-A lightweight, intuitive web app to help students plan their study sessions, track progress, and stay organized.
+A lightweight, privacy-first study planner and progress tracker for students.
 
-![StudyFlow Banner](https://img.shields.io/badge/Study-Planner-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+![StudyFlow](https://img.shields.io/badge/StudyFlow-Study%20Planner-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
-## ✨ Features
+StudyFlow helps you plan study sessions, estimate time, and track daily progress — all in the browser.
 
-- **📝 Add Study Tasks** - Create study tasks with subject, topic, date, and estimated time
-- **📚 Multiple Subjects** - Pre-defined subjects (Math, Science, English, History, Art, CS) or custom subjects
-- **⏱️ Time Estimates** - Set estimated study duration (15m to 3h)
-- **✅ Progress Tracking** - Mark tasks as complete and track daily progress
-- **📊 Smart Organization** - View tasks by: Today, Upcoming, Overdue, and Completed
-- **🎯 Daily Analytics** - See daily progress percentage and motivational messages
-- **💾 Data Persistence** - Automatically saves tasks to browser's local storage
-- **📱 Responsive Design** - Works seamlessly on desktop and mobile devices
-- **🎨 Modern UI** - Clean, intuitive interface with smooth animations
+## Key Features
 
-## 🚀 Quick Start
+- **Add tasks:** Create tasks with subject, topic, date, and estimated duration.
+- **Multiple subjects:** Use built-in subjects or add your own.
+- **Time estimates:** Choose durations from 15 minutes up to 3 hours.
+- **Progress tracking:** Mark tasks complete and view daily completion percentage.
+- **Views:** Filter tasks by Today, Upcoming, Overdue, or Completed.
+- **Local persistence:** Tasks are stored in Local Storage (no server required).
+- **Responsive UI:** Works well on desktop and mobile.
 
-### No Installation Required!
-Simply open `index.html` in your web browser to start using StudyFlow.
+## Quick Start
+
+No install — open the app in any modern browser:
+
+Windows:
+
+start index.html
+
+macOS:
+
+open index.html
+
+Linux:
+
+xdg-open index.html
+
+Or clone the repo and open `index.html`:
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/study_web_app.git
+git clone https://github.com/kartik_512/study_web_app.git
 cd study_web_app
-
-# Open in your browser
-open index.html
-# or on Windows
-start index.html
-# or on Linux
-xdg-open index.html
+start index.html  # or use the appropriate command for your OS
 ```
 
-## 📖 How to Use
+## How to Use
 
-1. **Add a Task**
-   - Click the "Add Study Task" button
-   - Select a subject or type a custom one
-   - Enter your task/topic name
-   - Choose a study date
-   - Select estimated time required
+1. Click the Add Study Task button and fill in subject, topic, date, and duration.
+2. Mark tasks as complete when finished to update your daily progress.
+3. Use the Today / Upcoming / Overdue / Completed filters to manage tasks.
+4. Delete tasks you no longer need; all changes save automatically.
 
-2. **Track Progress**
-   - Check tasks off as you complete them
-   - View today's progress percentage
-   - See motivational messages based on your completion
-
-3. **Manage Tasks**
-   - View tasks organized by date status (Today, Upcoming, Overdue)
-   - Delete tasks you no longer need
-   - Your data is automatically saved
-
-## 🗂️ File Structure
+## Project Structure
 
 ```
 study_web_app/
-├── index.html      # Main HTML structure
-├── script.js       # Core functionality and logic
-├── styles.css      # Modern styling and animations
-└── README.md       # This file
+├── index.html    # App UI
+├── script.js     # App logic
+├── styles.css    # Styling
+└── README.md     # This file
 ```
 
-## 🛠️ Technologies Used
+## Technologies
 
-- **HTML5** - Semantic markup
-- **CSS3** - Modern styling with CSS variables and animations
-- **Vanilla JavaScript** - Pure JS, no frameworks or dependencies
-- **LocalStorage API** - Client-side data persistence
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- LocalStorage API
 
-## 💡 Key Features Explained
+## Privacy
 
-### Subject Management
-Choose from predefined subjects or create custom ones for your unique study needs.
+All data remains in the browser's Local Storage — nothing is transmitted to external servers.
 
-### Time Estimation
-Plan your study sessions with options ranging from 15 minutes to 3 hours.
+## Roadmap
 
-### Progress Dashboard
-- Daily progress percentage
-- Time tracking (total study time vs. completed time)
-- Task organization by status
-- Motivational feedback
+- Study time notifications
+- Weekly/monthly reports
+- Export / import tasks
+- Dark mode
+- Recurring tasks
+- Optional cloud sync
 
-### Data Storage
-All your tasks are saved in your browser's local storage. Your data stays on your device and is never sent to any server.
+## Browser Support
 
-## 🎯 Planned Enhancements
+Modern Chrome, Edge, Firefox, Safari, and mobile browsers.
 
-- [ ] Study time notifications
-- [ ] Weekly/monthly progress reports
-- [ ] Export study logs
-- [ ] Dark mode theme
-- [ ] Subject statistics
-- [ ] Recurring tasks
-- [ ] Cloud sync (Firebase/Supabase)
+## Contributing
 
-## 🐛 Browser Support
+Contributions are welcome. Please open issues or submit pull requests with improvements or bug fixes.
 
-- Chrome/Edge (Latest)
-- Firefox (Latest)
-- Safari (Latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
+## License
 
-## 🔒 Privacy
-
-StudyFlow stores all data locally in your browser using LocalStorage. No data is sent to external servers. Your study information remains completely private.
-
-## 📝 License
-
-This project is open source and available under the MIT License - see LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-
-## 👨‍💻 Author
-
-Created as a student productivity tool.
+MIT — see the LICENSE file for details.
 
 ---
 
-**Happy studying! 📚**
+Happy studying!
 
-*Plan · Track · Succeed*
+Plan · Track · Succeed
